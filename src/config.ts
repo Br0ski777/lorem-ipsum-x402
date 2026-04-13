@@ -32,6 +32,32 @@ Do NOT use for text classification -- use text_classify_content instead. Do NOT 
         },
         required: ["count", "type"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Generated lorem ipsum text"
+            },
+            "count": {
+              "type": "number",
+              "description": "Number of units generated"
+            },
+            "type": {
+              "type": "string",
+              "description": "Type (paragraphs, sentences, words)"
+            },
+            "length": {
+              "type": "number",
+              "description": "Character length of text"
+            }
+          },
+          "required": [
+            "text",
+            "count",
+            "type"
+          ]
+        },
     },
   ],
 };
