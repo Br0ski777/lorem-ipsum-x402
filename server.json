@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/lorem-ipsum",
+  "title": "Lorem Ipsum Generator API",
+  "description": "Generate placeholder text — paragraphs, sentences, words. x402 micropayment.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/lorem-ipsum-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/lorem-ipsum-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://lorem-ipsum-x402-production.up.railway.app/mcp"
+    }
+  ]
+}
