@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://lorem-ipsum-production-efa3.up.railway.app/mcp"
+      "url": "https://lorem-ipsum-x402-production.up.railway.app/mcp"
     }
   ]
 }
