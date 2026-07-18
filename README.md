@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_generate_lorem_ipsum` | POST | `/api/generate` | $0.001 | Generate Lorem Ipsum placeholder text |
+| `text_generate_lorem_ipsum` | POST | `/api/generate` | $0.003 | Generate Lorem Ipsum placeholder text |
 
 ### `text_generate_lorem_ipsum`
 
