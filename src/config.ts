@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/generate",
-      price: "$0.001",
+      price: "$0.003",
       description: "Generate Lorem Ipsum placeholder text",
       toolName: "text_generate_lorem_ipsum",
       toolDescription: `Use this when you need to generate placeholder text for mockups, wireframes, UI prototypes, or content templates. Returns Lorem Ipsum text with metadata.
